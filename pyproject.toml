@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nodejs-environment"
+version = "0.1.0"
+description = "nodejs environment"
+authors = ["Nick Mazurkin <mazurkin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.12"
+
+[tool.poetry.group.flask.dependencies]
+flask = "3.1.2"
+flask-sqlalchemy = "3.1.1"
+flask-cors = "6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "9.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
