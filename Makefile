@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 ROOT  := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
-CONDA_ENV_NAME = nodejs
+CONDA_ENV_NAME = fullstack
 
 # -----------------------------------------------------------------------------
 # default
