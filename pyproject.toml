@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "nodejs-environment"
+name = "fullstack-environment"
 version = "0.1.0"
-description = "nodejs environment"
+description = "fullstack environment"
 authors = ["Nick Mazurkin <mazurkin@gmail.com>"]
 readme = "README.md"
 
